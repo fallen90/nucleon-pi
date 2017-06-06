@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Nucleon</title>
+      <link href="/node_modules/ionicons/dist/css/ionicons.min.css" rel="stylesheet">
+      <link href="/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+      <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+      <link href="/node_modules/tether/dist/css/tether.min.css" rel="stylesheet">
+      <link href="assets/css/main.less" rel="stylesheet/less">
+      <!-- modules -->
+      <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="/node_modules/tether/dist/js/tether.min.js"></script>
+      <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script>
+         // setTimeout(function() {
+         //    window.location.reload();
+         // }, 500);
+      </script>
+   </head>
+
+   <body>
+      <!-- desktop -->
+      <div id="desktop">
+         <div id="applications">
+            <div class="card">
+               <ul class="list-group list-group-flush" id="application-list">
+                  <li class="list-group-item justify-content-between application-list-item">
+                     Calculator
+                     <span class="badge badge-default badge-info">
+                       <i class="fa fa-calculator"></i>
+                     </span>
+                  </li>
+                  <li class="list-group-item justify-content-between">
+                     Videos
+                     <span class="badge badge-default badge-info">
+                       <i class="fa fa-calculator"></i>
+                     </span>
+                  </li>
+                  <li class="list-group-item justify-content-between">
+                     Web Browser
+                     <span class="badge badge-default badge-info">
+                       <i class="fa fa-calculator"></i>
+                     </span>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div id="visible-area">
+            <h1 class="anotate"> Desktop Area </h1>
+         </div>
+      </div>
+      <!-- taskbar -->
+      <nav class="navbar bg-inverse fixed-bottom" id="taskbar">
+         <ul class="nav nav-pills" id="taskbar-applications-list">
+            <li class="nav-item active" id="appbtn">
+               <a class="nav-link" href="#">
+                  <i class="fa fa-bars"></i>
+               </a>
+            </li>
+         </ul>
+      </nav>
+   </body>
+   <script src="/node_modules/less/dist/less.min.js"></script>
+   <!-- app -->
+   <script src="/system/app.js"></script>
+
+</html>

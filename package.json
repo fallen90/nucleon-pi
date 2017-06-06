@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "2525",
+    "font-awesome": "^4.7.0",
+    "ionicons": "^3.0.0",
+    "less": "^2.7.2",
+    "tether": "^1.4.0"
+  },
+  "name": "nucleon-pi",
+  "version": "1.0.0",
+  "description": "web ui for raspberry pi",
+  "main": "index.js",
+  "repository": "https://github.com/fallen90/nucleon-pi.git",
+  "author": "Jasper John Cinatad <slytherin9090@gmail.com>",
+  "license": "LGPL"
+}
